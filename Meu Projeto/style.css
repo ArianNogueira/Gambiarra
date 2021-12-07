@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body {
+    /*background-color: rgb(139, 139, 255);*/
+    font: 12pt Arial;
+    background-image: url('paisagem.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive; font-weight: normal;
+    text-align: center;
+}
+
+input[type=text] { font-size: 12pt; }
+input[type=submit] {
+    background-color: green;
+    color: white;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    font-family: cursive;
+}
+
+::placeholder {
+    font: 3pt;
+}

@@ -1,0 +1,25 @@
+p {
+    /*Simplificado*/
+    width: 300px;
+    border-top: #000 solid 20px;        /*parte de cima*/
+    border-right: #00F double 20px;     /*lado direito*/
+    border-bottom: #F00 dotted 20px;    /*parte de baixo*/
+    border-left: #0F0 groove 20px;      /*lado esquerdo*/
+
+    /*Passo a passo
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+
+    border-top-style: solid;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-left-style: groove;
+
+    border-top-color: #000;
+    border-right-color: #F00;
+    border-bottom-color: #0F0;
+    border-left-color: #00F;
+    */
+}

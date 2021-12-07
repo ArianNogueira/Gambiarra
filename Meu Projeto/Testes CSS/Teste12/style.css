@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+}
+
+p {
+    border: 1px solid #F00;
+    margin: 0px;
+    text-align: center;
+    margin: auto;
+}
+
+div {
+    border: 1px solid #000;
+    margin: auto;
+}
+
+#d1 {
+    /*
+    margin-top: 150px;
+    margin-right: 400px;
+    margin-bottom: 300px;
+    margin-left: 10px; */
+    
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#d1 p {
+    width: 200px;
+}
+
+#d2 {
+    /* margin: 0px; */
+
+    width: 200px;
+    height: 200px;
+}

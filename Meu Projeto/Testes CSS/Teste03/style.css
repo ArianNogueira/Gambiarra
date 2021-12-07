@@ -1,0 +1,16 @@
+body {
+    background-color: #bbb;
+    background-image: url(CFB.jpg), url(download.png);
+    background-size: 200px, 100px;
+    background-repeat: no-repeat, repeat;
+    background-position: 200px 200px, 0px 0px;
+}
+
+p {
+    font-size: 30pt;
+    background-color: green;
+    background-image: url(losango.png);
+    background-repeat: repeat-x;
+    background-size: 50px;
+    background-position: -10px 8px;
+}

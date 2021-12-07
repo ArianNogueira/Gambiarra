@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+div {
+    border: 1px solid #000;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px; 
+    
+}
+
+#d1 {
+     /*Padding - Preenchimento*/
+    padding-top: 50;
+    padding-right: 0px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+}
+
+#d2 {
+    padding: 50px;
+} 

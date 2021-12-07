@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Projeto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Cadastro de Pessoas</h1>
+    <p>Para fazer o cadastro preencha todos os campos abaixo</p>
+    </header>
+    <div>
+        <section id="entrada">
+            <form action="#" method="get">
+                <p>
+                    <label for="nc">Nome: </label>
+                    <input type="text" name="nom" id="nc" placeholder="Informe seu nome completo: ">
+                </p>
+                <p>
+                    <label for="nasc">Data de Nascimento: </label>
+                    <input type="text" name="dn" id="nasc" placeholder="dd/mm/aa">
+                </p>
+                <p>
+                    <label for="sex">Sexo:</label>
+                    <input type="radio" name="mesexo" id="sexm" checked>
+                    <label for="sexm">Maculino</label>
+                    <input type="radio" name="mesexo" id="sexf">
+                    <label for="sexf">Feminino</label>
+                </p>
+                <p>
+                    <label for="estt">Estado:</label>
+                    <select id="est">
+                        <option value="">Selecione um Estado (UF)</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="cid">Cidade:</label>
+                    <input type="text" name="ci" id="ci" placeholder="Informe a cidade em que nasceu:">
+                </p>
+                <p>
+                    <label for="en">Endereço:</label>
+                    <input type="text" name="end" id="end" placeholder="Informe a Rua e o Número:">
+                </p>
+                <p>
+                    <label for="ba">Bairro:</label>
+                    <input type="text" name="bar" id="bar" placeholder="Nome do Bairro">
+                </p>
+                <p>
+                    <label for="tel">Telefone:</label>
+                    <input type="text" name="te" id="te" placeholder="(98) 98724-5592">
+                </p>
+                <p>
+                    <label for="em">Email:</label>
+                    <input type="text" name="ema" id="ema" placeholder="desconhecido@.....">
+                </p>
+                <p><input type="submit" value="Cadastrar" formaction="javascript:cadastrar()"></p>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>Meu Projeto</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

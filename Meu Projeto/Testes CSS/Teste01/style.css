@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(156, 156, 253);
+}
+
+h1, h2, h3 {
+    color: white;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
+p {
+    color: rgb(0, 97, 0);
+    font-size: 20pt;
+}
+
+#txt {
+    color: yellow;
+}
+
+.xtx {
+    color: red;
+}
+

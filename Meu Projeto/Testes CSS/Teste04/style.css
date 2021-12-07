@@ -1,0 +1,23 @@
+#d1, #d2, #d3, #pa1 {
+    border: 15px dotted #000;
+    padding: 0px 100px 50px 10px; /*topo, direita, baixo, esquerda*/
+    padding: 50px;
+    background-image: url(losango.png);
+    background-size: 48px;
+}
+
+#d1 {
+    background-clip: border-box;
+}
+
+#d2 {
+    background-clip: padding-box;
+}
+
+#d3 {
+    background-clip: content-box;
+}
+
+#pa1 {
+    background-clip: padding-box;
+}
