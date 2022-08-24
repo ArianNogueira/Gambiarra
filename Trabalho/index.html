@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuso Horário</title>
+    <script src="index.js"></script>
+    <style>
+        h1 {
+            position: relative;
+            color: black;
+            top: 10px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .div-img {
+            position: absolute;
+            top: 0px;
+            margin: auto;
+        }
+
+        div {
+            position: relative;
+            height: 100px;
+            width: 200px;
+            display: inline-block;
+            margin-left: 95px;
+            margin-top: 150px;
+            text-transform: uppercase;
+            text-align: center;
+            border-radius: 10px;
+            font-weight: bolder;
+        }
+
+        .fuso-1 {
+            border: 3px red solid;
+            background-color: white;
+        }
+
+        .fuso-2 {
+            border: 3px yellow solid;  
+            background-color: white;
+        }
+
+        .fuso-3 {
+            border: 3px blue solid;
+            background-color: white;
+        }
+
+        .fuso-4 {
+            border: 3px green solid;
+            background-color: white;
+        }
+
+        button {
+            position: relative;
+            margin-left: 46em;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-img">
+        <img src="4372857-Timezone-clocks-showing-different-time-Stock-Photo-zones.jpg" alt="Imagem-fuso-horario">
+    </div>
+    <h1>Fuso Horário</h1>
+    <div class="fuso-1">
+        Brasília
+        <p id="p1"></p>
+    </div>
+    <div class="fuso-2">
+        Tóquio
+        <p id="p2"></p>
+    </div>
+    <div class="fuso-3">
+        New York
+        <p id="p3"></p>
+    </div>
+    <div class="fuso-4">
+        London
+        <p id="p4"></p>
+    </div> <br>
+    <button onclick="mostrar()">MOSTRAR</button>
+</body>
+</html>
